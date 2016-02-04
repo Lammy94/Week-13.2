@@ -2,9 +2,9 @@ $(document).on("pagecreate","#pageone", onPageCreated);
 
 //some example data
 fruit = [
-  { name: 'Banana', 	colour: 'Yellow'		},
-  { name: 'Orange',  colour: 'Orange' 	},
-  { name: 'Lime',	colour: 'Green'		}
+  { name: 'Banana', 	colour: 'Yellow', cost:'60p', countryoforigin:'Ecuador'},
+  { name: 'Orange',  colour: 'Orange', cost:'40p', countryoforigin:'China'},
+  { name: 'Lime',	colour: 'Green', cost:'90p', countryoforigin:'Mexico'}
 ];
 
 
